@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cpplibroot</id>
+    <version>0.1.0</version>
+    <packageSourceUrl>https://github.com/gulachek/cpplibroot</packageSourceUrl>
+    <owners>gulachek</owners>
+
+    <title>cpplibroot (Install)</title>
+    <authors>gulachek</authors>
+    <projectUrl>https://github.com/gulachek/cpplibroot</projectUrl>
+    <tags>cpplibroot c++ msvc library</tags>
+    <summary>Schema for searching installed c++ libraries</summary>
+    <description>Schema for searching installed c++ libraries</description>
+
+    <dependencies>
+	    <dependency id="chocolatey" version="1.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
